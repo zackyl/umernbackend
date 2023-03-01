@@ -3,7 +3,7 @@ import { validationResult } from "express-validator";
 import HttpError from "../models/http-error.js";
 import getCoordsForAddress from "../util/location.js";
 import Place from "../models/place.js";
-import User from "../models/User.js";
+import User from "../models/user.js";
 import mongoose from "mongoose";
 import fs from "fs";
 

@@ -3,7 +3,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 import HttpError from "../models/http-error.js";
-import User from "../models/User.js";
+import User from "../models/user.js";
 
 const getAllUsers = async (req, res, next) => {
   try {
