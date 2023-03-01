@@ -52,7 +52,7 @@ app.use((error, req, res, next) => {
 mongoose.set("strictQuery", true);
 mongoose
   .connect(URL)
-  .then(() => app.listen(5000))
+  .then(() => app.listen(process.env.PORT || 5000))
   .catch((err) => {
     console.log(err);
   });
